@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de Exercícios</title>
+</head>
+<body>
+
+<div id="teste">
+
+    <h2>Bem vindos ao gerador de exercícios!</h2>
+    <!-- <p>Sendo o estudo da matemática uma dificuldade de muitos estudantes brasileiros, 
+        criei o gerador de exercícios.
+    </p>
+    <h2>Como funciona:</h2> -->
+    <p>Toda vez que o exercício é atualizado, os valores dos enunciados
+        são alterados por números aleatórios. Assim, por mais que o 
+        estudante tenha treinado muito, sempre terá um exercício novo!
+    </p>
+
+</div>
+
+    <div class="enunciados" data-operation="soma">
+        <p id="enunciado1"> Qual o resultado de <span class="num1">0</span> + <span class="num2">2</span>?</p>
+        <input onclick="changeBackColor(this)" class="resposta" type="number" placeholder="digite o resultado">
+        <button class="enviar" onclick="enviou(this)">Enviar</button>
+        <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+    </div>
+
+
+
+    <div class="enunciados" data-operation="divisao">
+        <p>Em um projeto para a construção de um cinema, 
+            os arquitetos estão avaliando a relação entre 
+            a quantidade de fileiras e a quantidade de cadeiras 
+            em cada fileira. O projeto inicial prevê uma sala 
+            para <span class="num1">304</span> pessoas. No caso de utilizarem <span class="num2">19</span> fileiras, 
+            o número de cadeiras por fileira será</p>
+
+            <input onclick="changeBackColor(this)" class="resposta" type="number" placeholder="digite o resultado">
+            <button class="enviar" onclick="enviou(this)">Enviar</button>
+            <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+    </div>
+
+
+    <div class="enunciados" data-operation="divisao">
+        <p>Para realizar um campeonato de vôlei em uma escola o professor 
+             educação física decidiu dividir os <span class="num1">96</span> alunos em grupos. 
+             Sabendo que cada equipe para esse esporte deve ser composta 
+             por <span class="num2">6</span> pessoas, quantas equipes 
+             o professor conseguiu formar?</p>
+             <input onclick="changeBackColor(this)" class="resposta" type="number" placeholder="digite o resultado">
+             <button class="enviar" onclick="enviou(this)">Enviar</button>
+             <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+    </div>
+
+    <div class="enunciados" data-operation="multiplicacao">
+        <p>Calcule o produto entre <span class="num1">10</span> e <span class="num2">5</span></p>
+        <input onclick="changeBackColor(this)" class="resposta" type="number" placeholder="digite o resultado">
+        <button class="enviar" onclick="enviou(this)">Enviar</button>
+        <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+    </div>
+
+    <div class="enunciados" data-operation="multiplicacao">
+        <p>Uma escola comprou <span class="num1">87</span> caixas de suco a R$ <span class="num2">4</span>,00 cada. Quanto a escola gastou?</p>
+        <input onclick="changeBackColor(this)" class="resposta" type="number" placeholder="digite o resultado">
+        <button class="enviar" onclick="enviou(this)">Enviar</button>
+        <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+    </div>
+
+    <div class="enunciados" data-operation="multiplicacao">
+        <p>Em uma caixa de tintas contém <span class="num1">75</span> potinhos. Quantos potinhos terão em <span class="num2">4</span> caixas?</p>
+        <input onclick="changeBackColor(this)" class="resposta" type="number" placeholder="digite o resultado">
+        <button class="enviar" onclick="enviou(this)">Enviar</button>
+        <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+    </div>
+
+    <!-- <div class="enunciados" data-operation="subtracao">
+        <p>Davi comprou um jogo por R$ <span class="num1">150</span>,00 reais. Na semana seguinte,
+            a loja que ele comprou estava vendendo o mesmo jogo por R$ <span class="num2">65</span>,00 
+            mais barato. Se Davi não fosse ansioso e tivesse esperado por mais uma semana,
+            por quanto teria comprado? </p>
+        <input class="resposta" type="number" placeholder="digite o resultado">
+        <button  onclick="enviou(this)">ENVIAR</button>
+    </div> -->
+
+    <div class="enunciados" data-operation="subtracao">
+        <p>Calcule a diferença entre <span class="num1">10</span> e <span class="num2">2</span></p>
+        <input onclick="changeBackColor(this)" class="resposta" type="number" placeholder="digite o resultado">
+        <button class="enviar" onclick="enviou(this)">Enviar</button>
+        <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+    </div>
+
+    <footer>
+        By: <a href="https://www.linkedin.com/in/davi-azevedo-a62267206/" target="_blank">Davi Azevedo</a>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

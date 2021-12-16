@@ -1,0 +1,128 @@
+body{
+    background-color: #235789;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: justify;
+    padding: 12px;
+}
+
+.enunciados{
+    background-color: #ffffff;
+    color: black;
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+button{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.enviar:hover{
+    background-color: #129490;
+    color: #ffffff;
+}
+
+.atualizar:hover{
+    background-color: #9BA2FF;
+    color: #ffffff;
+}
+
+input{
+    padding: 8px;
+    border-radius: 3px;
+}
+
+input:hover{
+    background-color: rgb(212, 255, 250);
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: yellow;
+}
+
+@media (min-width: 720px){
+    body{
+        background-color: #235789;
+        color: #ffffff;
+        font-size: 15px;
+        text-align: justify;
+        padding: 12px;
+    }
+
+    #teste{
+        text-align: center;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: larger;
+    }
+
+    .enunciados{
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        background-color: #ffffff;
+        color: black;
+        display: block;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+    
+    
+    button{
+        cursor: pointer;
+        margin-top: 10px;
+        padding: 6px;
+        border-radius: 3px;
+    }
+    
+    .enviar:hover{
+        background-color: #129490;
+        color: #ffffff;
+    }
+    
+    .atualizar:hover{
+        background-color: #9BA2FF;
+        color: #ffffff;
+    }
+    
+    input{
+        padding: 8px;
+        border-radius: 3px;
+    }
+    
+    input:hover{
+        background-color: rgb(212, 255, 250);
+    }
+    
+    footer{
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    a{
+        color: white;
+    }
+    
+    a:hover{
+        color: yellow;
+    }
+}
