@@ -20,88 +20,88 @@
     <title>Gerador de Exercícios</title>
   </head>
   <body>
-    <section id="teste">
+    <section>
       <h1>Bem vindos ao gerador de exercícios!</h1>
       <p>
-        Toda vez que o exercício é atualizado, os valores dos enunciados são
+        Toda vez que o exercício é atualizado, os valores dos questions são
         alterados por números aleatórios. Assim, por mais que você tenha
         treinado muito, sempre terá um exercício novo!
       </p>
     </section>
     <main>
-      <div class="enunciados" data-operation="soma">
+      <div class="questions" data-operation="addition">
         <p>
           Qual o resultado de <span class="num1">15</span> +
           <span class="num2">10</span>?
         </p>
         <input
-          onclick="changeBackColor(this)"
-          class="resposta"
+          onclick="changeBackgroundColor(this)"
+          class="answer"
           type="number"
           placeholder="Digite o resultado"
         />
-        <button class="enviar" onclick="enviou(this)">Enviar</button>
-        <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+        <button class="answered" onclick="answered(this)">Responder</button>
+        <button class="update" onclick="updateNumber(this)">Atualizar</button>
       </div>
 
-      <div class="enunciados" data-operation="multiplicacao">
+      <div class="questions" data-operation="multiplication">
         <p>
           Calcule o produto entre <span class="num1">10</span> e
           <span class="num2">5</span>
         </p>
         <input
-          onclick="changeBackColor(this)"
-          class="resposta"
+          onclick="changeBackgroundColor(this)"
+          class="answer"
           type="number"
           placeholder="Digite o resultado"
         />
-        <button class="enviar" onclick="enviou(this)">Enviar</button>
-        <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+        <button class="answered" onclick="answered(this)">Responder</button>
+        <button class="update" onclick="updateNumber(this)">Atualizar</button>
       </div>
 
-      <div class="enunciados" data-operation="subtracao">
+      <div class="questions" data-operation="subtraction">
         <p>
           Calcule a diferença entre <span class="num1">10</span> e
           <span class="num2">2</span>
         </p>
         <input
-          onclick="changeBackColor(this)"
-          class="resposta"
+          onclick="changeBackgroundColor(this)"
+          class="answer"
           type="number"
           placeholder="Digite o resultado"
         />
-        <button class="enviar" onclick="enviou(this)">Enviar</button>
-        <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+        <button class="answered" onclick="answered(this)">Responder</button>
+        <button class="update" onclick="updateNumber(this)">Atualizar</button>
       </div>
 
-      <div class="enunciados" data-operation="multiplicacao">
+      <div class="questions" data-operation="multiplication">
         <p>
           Uma escola comprou <span class="num1">87</span> caixas de suco a R$
           <span class="num2">4</span>,00 cada. Quanto a escola gastou?
         </p>
         <input
-          onclick="changeBackColor(this)"
-          class="resposta"
+          onclick="changeBackgroundColor(this)"
+          class="answer"
           type="number"
           placeholder="Digite o resultado"
         />
-        <button class="enviar" onclick="enviou(this)">Enviar</button>
-        <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+        <button class="answered" onclick="answered(this)">Responder</button>
+        <button class="update" onclick="updateNumber(this)">Atualizar</button>
       </div>
 
-      <div class="enunciados" data-operation="multiplicacao">
+      <div class="questions" data-operation="multiplication">
         <p>
           Em uma caixa de tintas contém <span class="num1">75</span> potinhos.
           Quantos potinhos terão em <span class="num2">4</span> caixas?
         </p>
         <input
-          onclick="changeBackColor(this)"
-          class="resposta"
+          onclick="changeBackgroundColor(this)"
+          class="answer"
           type="number"
           placeholder="Digite o resultado"
         />
-        <button class="enviar" onclick="enviou(this)">Enviar</button>
-        <button class="atualizar" onclick="atualizaNum(this)">Atualizar</button>
+        <button class="answered" onclick="answered(this)">Responder</button>
+        <button class="update" onclick="updateNumber(this)">Atualizar</button>
       </div>
     </main>
     <footer>
